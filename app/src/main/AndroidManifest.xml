@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chathura.dcs">
+
+    <uses-sdk
+        android:maxSdkVersion="19"
+        android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INPUT_METHOD_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dcssplash"
+        android:label="DCS Leave Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VCLogin" />
+        <activity android:name=".DeanLogin" />
+        <activity android:name=".HodLogin" />
+        <activity android:name=".EmpLogin" />
+        <activity android:name=".EMP_Main" />
+        <activity android:name=".Dean_Main" />
+        <activity android:name=".Hod_Main" />
+        <activity android:name=".VC_Main" />
+        <activity android:name=".Profile_View" />
+        <activity android:name=".ListVC" />
+        <activity android:name=".Register" />
+        <activity android:name=".SetUP" />
+        <activity android:name=".PasswordReset" />
+        <activity android:name=".RemoveUser" />
+        <activity android:name=".ChooseProfile" />
+        <activity android:name=".ListAthority" />
+        <activity android:name=".ProfileView_Athority" />
+        <activity
+            android:name=".ChooseDate"
+            android:exported="true" />
+        <activity
+            android:name=".SendLeaves"
+            android:exported="true" />
+        <activity android:name=".LeaveRequestList" />
+        <activity android:name=".LeaveRequestView" />
+        <activity android:name=".CheckLeaves" />
+        <activity android:name=".ViewMyRequests" />
+        <activity android:name=".ViewStatus" />
+        <activity android:name=".ViewStatusRej" />
+        <activity android:name=".ViewStatusPending" />
+        <activity android:name=".PassResetAthor"></activity>
+    </application>
+
+</manifest>
